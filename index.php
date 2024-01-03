@@ -87,12 +87,15 @@
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
+            <div class="row g-3">
+            
                 <div class="col-12">
                   <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Send Money </button>
                 </div>
                 <div class="col-12">
                   <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Lipa na M-PESA</button>
                 </div>
+    </div>
               <!--bs5 input-->
           </div>
         </div>
@@ -104,6 +107,10 @@
     ></script>
     <script type="text/javascript" src=""></script>
     <script type="text/javascript" src=""></script>
-    <script type="text/Javascript"></script>
+    <script type="text/Javascript">
+        function redirectTo(page) {
+            window.location.href = page;
+        }
+    </script>
   </body>
 </html>
