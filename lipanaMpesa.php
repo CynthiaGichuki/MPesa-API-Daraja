@@ -93,7 +93,7 @@
               <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('paybill.php')">Pay Bill</button>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Buy Goods and Services</button>
+              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('till.php')">Buy Goods and Services</button>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Pochi La Biashara</button>

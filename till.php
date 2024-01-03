@@ -87,9 +87,10 @@
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
-                          <div class="col-12">
+                          <form class="row g-3" action="./stk_initiate.php" method="POST">
+    <div class="col-12">
                  
-                 <label for="inputAddress" class="form-label">Till Number</label>
+    <label for="inputAddress" class="form-label">Till Number</label>
                  <input type="text" class="form-control" name="number" placeholder="Enter Till Number">
                </div>
                <div class="col-12">
@@ -99,6 +100,7 @@
                <div class="col-12">
                  <button type="submit" class="btn btn-success" name="submit" value="submit">SEND</button>
                </div>
+</form>
     
               <!--bs5 input-->
           </div>
