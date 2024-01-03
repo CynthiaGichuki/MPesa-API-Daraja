@@ -87,15 +87,12 @@
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
-            <form class="row g-3" action="./stk_initiate.php" method="POST">
-            
                 <div class="col-12">
                   <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Send Money </button>
                 </div>
                 <div class="col-12">
                   <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Lipa na M-PESA</button>
                 </div>
-              </form>
               <!--bs5 input-->
           </div>
         </div>
