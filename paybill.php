@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lipa na mpesa</title>
+    <title>PayBill Number</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       rel="stylesheet"
@@ -87,18 +87,23 @@
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
-                          <div class="row g-3">
-            
-            <div class="col-12">
-              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('paybill.php')">Pay Bill</button>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Buy Goods and Services</button>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Pochi La Biashara</button>
-            </div>
-</div>
+                          <div class="col-12">
+                 
+                 <label for="inputAddress" class="form-label">Business Number</label>
+                 <input type="text" class="form-control" name="number" placeholder="Enter Business Number">
+               </div>
+               <div class="col-12">
+                 <label for="inputAddress2" class="form-label" >Account Number</label>
+                 <input type="text" class="form-control" name="account"  placeholder="Enter Account Number">
+               </div>
+               <div class="col-12">
+                 <label for="inputAddress2" class="form-label" >Amount</label>
+                 <input type="text" class="form-control" name="amount"  placeholder="Enter Amount">
+               </div>
+               <div class="col-12">
+                 <button type="submit" class="btn btn-success" name="submit" value="submit">SEND</button>
+               </div>
+    
               <!--bs5 input-->
           </div>
         </div>
@@ -111,9 +116,6 @@
     <script type="text/javascript" src=""></script>
     <script type="text/javascript" src=""></script>
     <script type="text/Javascript">
-        function redirectTo(page) {
-            window.location.href = page;
-        }
     </script>
   </body>
 </html>
