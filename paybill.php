@@ -81,7 +81,7 @@
         <div class="media mt-4 pl-2">
           <img src="./images/1200px-M-PESA_LOGO-01.svg.png" class="mr-3" height="75" />
           <div class="media-body">
-            <h6 class="mt-1">Select Payment Option</h6>
+            <h6 class="mt-1">PayBill</h6>
           </div>
         </div>
         <div class="media mt-3 pl-2">
