@@ -73,24 +73,32 @@
   <body oncontextmenu="return false" class="snippet-body">
     <div class="container d-flex justify-content-center">
       <div class="card mt-5 px-3 py-4">
+        <div class="d-flex flex-row justify-content-around">
+          <div class="mpesa"><span>Mpesa </span></div>
+          <div><span>Paypal</span></div>
+          <div><span>Card</span></div>
+        </div>
         <div class="media mt-4 pl-2">
           <img src="./images/1200px-M-PESA_LOGO-01.svg.png" class="mr-3" height="75" />
+          <div class="media-body">
+            <h6 class="mt-1">Select Payment Option</h6>
+          </div>
         </div>
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
-            <div class="row g-3">
+                          <div class="row g-3">
             
-                <div class="col-12">
-                  <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Pay Bill</button>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Buy Goods and Services</button>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Pochi La Biashara</button>
-                </div>
-    </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('sendmoney.php')">Pay Bill</button>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Buy Goods and Services</button>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-success" name="submit" value="submit" onclick="redirectTo('lipanaMpesa.php')">Pochi La Biashara</button>
+            </div>
+</div>
               <!--bs5 input-->
           </div>
         </div>
